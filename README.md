@@ -1,34 +1,4 @@
-# InterestingFront
 
-JavaScript's Data Types
-
-The latest ECMAScript standard defines seven data types:
-
-    A primitive value or data type is data that is not an object and has no methods. All primitives are immutable, meaning they cannot be changed. There are six primitive types:
-        Number
-        String
-        Boolean
-        Symbol
-        Null
-        Undefined
-    The seventh data type is Object
-
-	Symbol Data Type
-
-Symbols are new to JavaScript in ECMAScript Edition 6. A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.
-Null Data Type
-
-The null data type is an internal type that has only one value: null. This is a primitive value that represents the absence of any object value. A variable that contains null contains no valid number, string, boolean, array, or object. You can erase the contents of a variable (without deleting the variable) by assigning it the null value.
-
-Coercion
-
-In JavaScript, you can perform operations on values of different types without raising an exception. The JavaScript interpreter implicitly converts, or coerces, one of the data types to that of the other, then performs the operation. The rules for coercion of string, number, or boolean values are as follows:
-
-    If you add a number and a string, the number is coerced to a string.
-    If you add a boolean and a string, the boolean is coerced to a string.
-    If you add a number and a boolean, the boolean is coerced to a number.
-
-	for-in
 
 This loop iterates (in an arbitrary order) over the name of each enumerable property in an object, allowing statements to be executed for each distinct property.
 
